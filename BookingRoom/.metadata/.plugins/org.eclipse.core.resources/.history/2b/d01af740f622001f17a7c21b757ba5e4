@@ -1,0 +1,49 @@
+package com.trnvinh.bookingroom.controller;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Delete;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.trnvinh.bookingroom.model.User;
+import com.trnvinh.bookingroom.service.UserService;
+
+@RestController
+@RequestMapping("/api/v1/users")
+public class UserController {
+	@Autowired
+	private UserService service;
+	
+	@GetMapping
+	public List<User> getAllUsers() {
+		return service.getAllUsers();
+	}
+	
+	@GetMapping("/{id}")
+	public User getUserByUserName(@PathVariable String userName) {
+		return service.getUserByUserName(userName);
+	}
+	
+	@PostMapping
+	public void insertUser(@RequestBody User user) {
+		service.insertUser(user);
+	}
+	
+	@PutMapping
+	public void updateUser(@PathVariable String userName, @RequestBody User user) {
+		service.updateUser(user);
+	}
+	
+	@DeleteMapping
+	public void deleteUser(@PathVariable String userName) {
+		service.deleteUser(userName);
+	}
+}

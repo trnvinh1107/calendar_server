@@ -1,0 +1,5 @@
+package com.trnvinh.bookingroom.service;
+
+public class RoomService {
+
+}

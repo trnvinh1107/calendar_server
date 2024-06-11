@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.security.KeyStore.PrivateKeyEntry"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.mapper.UserMapper"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.service.UserService"/>
+    <fullyQualifiedTypeName name="java.lang.Boolean"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.mapper.RoomMapper"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.service.RoomService"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.model.Room"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.mapper.BookingRoomMapper"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.model.BookingRoom"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.service.BookingRoomService"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Mapper"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Insert"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Update"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.mapper.DayOffMapper"/>
+    <fullyQualifiedTypeName name="org.jcp.xml.dsig.internal.MacOutputStream"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.service.DayOffService"/>
+    <fullyQualifiedTypeName name="java.nio.channels.SeekableByteChannel"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.model.DayOff"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Delete"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Select"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="com.trnvinh.bookingroom.model.User"/>
+</qualifiedTypeNameHistroy>

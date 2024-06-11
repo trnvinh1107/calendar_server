@@ -1,0 +1,5 @@
+package com.trnvinh.bookingroom.mapper;
+
+public interface RoomMapper {
+
+}
