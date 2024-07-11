@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;BookingRoom/src/main/resources/schemal.sql&apos; to &apos;schema.sql&apos;" description="Rename resource &apos;schemal.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/schemal.sql" name="schema.sql" stamp="1717562931912" updateReferences="true"/>
-</session>

@@ -1,8 +1,0 @@
-CREATE TABLE users (
-    userName VARCHAR(50) PRIMARY KEY,
-    firstName NVARCHAR(50),
-    lastName NVARCHAR(50),
-    email VARCHAR(255),
-    password VARCHAR(255),
-    isAdmin BOOLEAN
-);

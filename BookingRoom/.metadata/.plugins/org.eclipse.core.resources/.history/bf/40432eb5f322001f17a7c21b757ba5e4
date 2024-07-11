@@ -1,5 +1,0 @@
-package com.trnvinh.bookingroom.mapper;
-
-public interface UserMapper {
-
-}
